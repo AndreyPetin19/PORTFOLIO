@@ -1,5 +1,5 @@
 import { Routes, Route, Link } from "react-router-dom";
-import CheckBus from "./CheckBus";
+import CheckBus from "./CheckBus.jsx";
 import "./index.css";
 
 function Home() {
