@@ -592,3 +592,10 @@ a {
     grid-template-columns: 1fr;
   }
 }
+.projects-grid {
+  margin-top: 28px;
+}
+
+.project-card:first-child {
+  margin-bottom: 32px;
+}
