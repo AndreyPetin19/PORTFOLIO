@@ -1,6 +1,7 @@
 import { Routes, Route, Link } from "react-router-dom";
 import CheckBus from "./CheckBus.jsx";
 import "./index.css";
+import Zeama from "./Zeama.jsx";
 
 function Home() {
   return (
@@ -117,6 +118,39 @@ function Home() {
 
       <section id="projects" className="section">
         <h2>Projects</h2>
+
+        <div className="project-card active">
+  <span className="tag">AI SaaS Project</span>
+
+  <h3>ZEAMA</h3>
+
+  <p>
+    AI-powered platform for analyzing customer reviews and generating
+    structured business insights.
+  </p>
+
+  <div className="tech-list">
+    <span>React</span>
+    <span>AI</span>
+    <span>SaaS</span>
+    <span>Analytics</span>
+  </div>
+
+  <div className="project-buttons">
+    <Link to="/projects/zeama" className="small-btn">
+      View Case
+    </Link>
+
+    <a
+      href="https://zeama.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="small-btn outline"
+    >
+      Live Demo
+    </a>
+  </div>
+</div>
 
         <div className="projects-grid">
           <div className="project-card active">
@@ -236,7 +270,8 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/projects/checkbus" element={<CheckBus />} />
+     <Route path="/projects/checkbus" element={<CheckBus />} />
+    <Route path="/projects/zeama" element={<Zeama />} />
     </Routes>
   );
 }
