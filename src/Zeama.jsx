@@ -98,15 +98,6 @@ function Zeama() {
     </a>
   </div>
 </div>
-        <div className="case-block">
-          <h3>Hackathon Participation</h3>
-
-          <p>
-            ZEAMA was developed and presented as part of a hackathon project.
-            Certificate and participation materials will be attached later.
-          </p>
-        </div>
-
         <div className="case-buttons">
           <a
             href="https://zeama.vercel.app/"
