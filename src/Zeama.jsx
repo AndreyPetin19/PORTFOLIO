@@ -74,7 +74,30 @@ function Zeama() {
             <span>Vercel</span>
           </div>
         </div>
+      <div className="case-block">
+  <h3>Hackathon Certificate</h3>
 
+  <p>
+    ZEAMA was presented as part of a hackathon project.
+  </p>
+
+  <img
+    src="/zeama-certificate.jpg"
+    alt="ZEAMA Certificate"
+    className="certificate-image"
+  />
+
+  <div style={{ marginTop: "20px" }}>
+    <a
+      href="/zeama-certificate.jpg"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="btn secondary"
+    >
+      View Certificate
+    </a>
+  </div>
+</div>
         <div className="case-block">
           <h3>Hackathon Participation</h3>
 
