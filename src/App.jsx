@@ -2,7 +2,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import CheckBus from "./CheckBus.jsx";
 import "./index.css";
 import Zeama from "./Zeama.jsx";
-import Projects from "./pages/Project.jsx";
+import Projects from "./pages/project.jsx";
 
 function Home() {
   return (
