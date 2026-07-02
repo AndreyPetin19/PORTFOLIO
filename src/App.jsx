@@ -2,6 +2,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import CheckBus from "./CheckBus.jsx";
 import "./index.css";
 import Zeama from "./Zeama.jsx";
+import Projects from "./pages/Projects.jsx";
 
 function Home() {
   return (
@@ -116,96 +117,7 @@ function Home() {
   </div>
 </section>
 
-      <section id="projects" className="section">
-        <h2>Projects</h2>
-
-        <div className="project-card active">
-  <span className="tag">AI SaaS Project</span>
-
-  <h3>ZEAMA</h3>
-
-  <p>
-    AI-powered platform for analyzing customer reviews and generating
-    structured business insights.
-  </p>
-
-  <div className="tech-list">
-    <span>React</span>
-    <span>AI</span>
-    <span>SaaS</span>
-    <span>Analytics</span>
-  </div>
-
-  <div className="project-buttons">
-    <Link to="/projects/zeama" className="small-btn">
-      View Case
-    </Link>
-
-    <a
-      href="https://zeama.vercel.app/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="small-btn outline"
-    >
-      Live Demo
-    </a>
-  </div>
-</div>
-
-        <div className="projects-grid">
-          <div className="project-card active">
-            <span className="tag">Active Project</span>
-            <h3>CheckBus</h3>
-
-            <p>
-              AI-based concept for detecting unpaid passengers in public
-              transport using computer vision and system analytics.
-            </p>
-
-            <div className="tech-list">
-              <span>React</span>
-              <span>FastAPI</span>
-              <span>AI</span>
-              <span>YOLO</span>
-            </div>
-
-            <div className="project-buttons">
-              <Link to="/projects/checkbus" className="small-btn">
-                View Case
-              </Link>
-
-              <a
-                href="https://github.com/AndreyPetin19"
-                target="_blank"
-                className="small-btn outline"
-              >
-                GitHub
-              </a>
-            </div>
-          </div>
-
-          <div className="project-card">
-            <span className="tag muted">Coming Soon</span>
-            <h3>AI Study Assistant</h3>
-
-            <p>
-              A future AI platform that helps students summarize materials,
-              generate quizzes and study with an intelligent assistant.
-            </p>
-          </div>
-
-          <div className="project-card">
-            <span className="tag muted">Coming Soon</span>
-            <h3>Future Fullstack Project</h3>
-
-            <p>
-              Reserved space for a new project that will demonstrate backend,
-              frontend and product development skills.
-            </p>
-          </div>
-        </div>
-      </section>
-
+      <Projects />
       <section id="achievements" className="section">
         <h2>Achievements</h2>
 
@@ -272,6 +184,7 @@ function App() {
       <Route path="/" element={<Home />} />
      <Route path="/projects/checkbus" element={<CheckBus />} />
     <Route path="/projects/zeama" element={<Zeama />} />
+    <Route path="/projects" element={<Projects />} />
     </Routes>
   );
 }
