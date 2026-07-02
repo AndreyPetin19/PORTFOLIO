@@ -90,6 +90,35 @@ function CheckBus() {
         </div>
 
         <div className="case-block">
+  <h3>Hackathon Participation</h3>
+
+  <p>
+    CheckBus was developed and presented during a hackathon, where the
+    project successfully reached the final stage. This experience involved
+    presenting the concept, demonstrating the prototype and validating the
+    idea before judges.
+  </p>
+
+  <img
+    src="/checkbus-certificate.jpg"
+    alt="CheckBus Hackathon Certificate"
+    className="certificate-image"
+  />
+
+  <div style={{ marginTop: "20px" }}>
+    <a
+      href="/checkbus-certificate.jpg"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="btn secondary"
+    >
+      View Certificate
+    </a>
+  </div>
+</div>
+
+
+        <div className="case-block">
           <h3>Tech Stack</h3>
 
           <div className="tech-list">
