@@ -155,7 +155,7 @@ function Home() {
       development, backend systems and practical project building.
     </p>
 
-    <p style={{ marginTop: "10px", color: "#a8adbd" }}>
+    <p style={{ marginTop: "15px", color: "#a8adbd" }}>
       Certificate: Coming Soon
     </p>
   </div>
