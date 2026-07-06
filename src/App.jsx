@@ -1,8 +1,9 @@
-import { Routes, Route, Link } from "react-router-dom";
-import CheckBus from "./CheckBus.jsx";
+import { Routes, Route } from "react-router-dom";
 import "./index.css";
-import Zeama from "./Zeama.jsx";
-import Projects from "./pages/project.jsx";
+import Projects from "./pages/Projects.jsx";
+import ProjectDetails from "./pages/ProjectDetails.jsx";
+import ContactForm from "./components/ContactForm.jsx";
+import NotFound from "./pages/NotFound.jsx";
 
 function Home() {
   return (
@@ -161,19 +162,16 @@ function Home() {
   </div>
 </section>
 
-      <section id="contact" className="section contact">
-        <h2>Contact</h2>
+      <section id="contact" className="section">
+    <h2>Contact</h2>
 
-        <p>Open to IT programs, collaborations and project opportunities.</p>
+    <p>
+        Feel free to contact me regarding projects,
+        collaboration or internship opportunities.
+    </p>
 
-        <a
-          href="https://github.com/AndreyPetin19"
-          target="_blank"
-          className="btn primary"
-        >
-          Visit GitHub
-        </a>
-      </section>
+    <ContactForm />
+</section>
     </main>
   );
 }
@@ -181,11 +179,11 @@ function Home() {
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-     <Route path="/projects/checkbus" element={<CheckBus />} />
-    <Route path="/projects/zeama" element={<Zeama />} />
-    <Route path="/projects" element={<Projects />} />
-    </Routes>
+  <Route path="/" element={<Home />} />
+  <Route path="/projects" element={<Projects />} />
+  <Route path="/projects/:slug" element={<ProjectDetails />} />
+  <Route path="*" element={<NotFound />} />
+</Routes>
   );
 }
 
