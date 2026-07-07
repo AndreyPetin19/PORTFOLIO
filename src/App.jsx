@@ -14,7 +14,8 @@ function Home() {
         <nav>
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
-          <a href="#achievements">Achievements</a>
+          <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
           <a href="#contact">Contact</a>
         </nav>
       </header>
@@ -26,8 +27,8 @@ function Home() {
           <h1>Building digital products with code, design and AI.</h1>
 
           <p className="hero-text">
-            I am an aspiring IT student focused on web development,
-            artificial intelligence and real-world startup projects.
+            I am an aspiring software developer focused on web development,
+            artificial intelligence and real-world digital products.
           </p>
 
           <div className="hero-buttons">
@@ -38,6 +39,7 @@ function Home() {
             <a
               href="https://github.com/AndreyPetin19"
               target="_blank"
+              rel="noopener noreferrer"
               className="btn secondary"
             >
               GitHub
@@ -47,9 +49,9 @@ function Home() {
 
         <div className="hero-card">
           <h3>Portfolio Status</h3>
-          <p>1 active project</p>
-          <p>2 upcoming projects</p>
-          <p>Hackathon finalist</p>
+          <p>React portfolio project</p>
+          <p>AI/Product case studies</p>
+          <p>Hackathon participation</p>
           <p>IT STEP Academy student</p>
         </div>
       </section>
@@ -58,120 +60,112 @@ function Home() {
         <h2>About Me</h2>
 
         <p>
-          My name is Andrey Petin. I am an aspiring IT student focused on
-          software development, artificial intelligence and building real-world
+          My name is Andrey Petin. I am an aspiring software developer focused
+          on web development, artificial intelligence and building practical
           digital products.
         </p>
 
         <p style={{ marginTop: "16px" }}>
           I am currently studying at IT STEP Academy on the Software
-          Development course, where I continue to improve my programming,
-          web development and technical problem-solving skills. After
-          completing the course, I plan to attach my diploma or certificate
-          to this portfolio.
+          Development course, where I improve my programming, frontend
+          development and technical problem-solving skills.
         </p>
 
         <p style={{ marginTop: "16px" }}>
-          I am particularly interested in creating systems that solve practical
-          problems — from web platforms to AI-based solutions. My goal is not
-          only to learn technologies, but to apply them in projects that have
-          real value and scalability.
+          My main interest is creating real-world projects that combine clean
+          interfaces, useful functionality and modern technologies. I focus on
+          building products that can be presented, tested and deployed.
         </p>
 
         <p style={{ marginTop: "16px" }}>
-          I have experience working with modern technologies such as React,
-          FastAPI and basic AI tools. I continuously improve my skills by
-          building projects, learning new frameworks and exploring software
-          engineering.
-        </p>
-
-        <p style={{ marginTop: "16px" }}>
-          Outside of IT, I have a strong background in sports — 6 years of
-          basketball, multiple-time city and national champion — which
-          developed my discipline, teamwork and competitive mindset.
+          I have practical experience with React, Vite, React Router, Git,
+          Vercel and basic AI tools. I continue developing my skills through
+          portfolio projects, hackathons and product-oriented development.
         </p>
       </section>
 
-      <section className="section">
-  <h2>Skills</h2>
+      <section id="skills" className="section">
+        <h2>Skills</h2>
 
-  <div className="skills-grid">
-    <div className="skill-card">
-      <h3>Frontend</h3>
-      <p>HTML, CSS, JavaScript, React</p>
-    </div>
+        <div className="skills-grid">
+          <div className="skill-card">
+            <h3>Frontend</h3>
+            <p>HTML, CSS, JavaScript, React, Vite</p>
+          </div>
 
-    <div className="skill-card">
-      <h3>Backend</h3>
-      <p>FastAPI, basic Node.js</p>
-    </div>
+          <div className="skill-card">
+            <h3>Routing & UI Logic</h3>
+            <p>React Router, dynamic pages, forms, validation</p>
+          </div>
 
-    <div className="skill-card">
-      <h3>AI</h3>
-      <p>YOLO, computer vision basics</p>
-    </div>
+          <div className="skill-card">
+            <h3>AI & Product</h3>
+            <p>AI tools, computer vision basics, SaaS product ideas</p>
+          </div>
 
-    <div className="skill-card">
-      <h3>Tools</h3>
-      <p>Git, GitHub, Vercel, VS Code</p>
-    </div>
-  </div>
-</section>
+          <div className="skill-card">
+            <h3>Tools</h3>
+            <p>Git, GitHub, Vercel, VS Code, npm</p>
+          </div>
+        </div>
+      </section>
 
       <Projects />
+
       <section id="achievements" className="section">
-        <h2>Achievements</h2>
+        <h2>IT Achievements</h2>
 
         <div className="achievements">
           <div>
-            <h3>6 years</h3>
-            <p>Basketball experience</p>
-          </div>
-
-          <div>
-            <h3>4x</h3>
-            <p>City champion</p>
-          </div>
-
-          <div>
-            <h3>3x</h3>
-            <p>Kazakhstan champion</p>
+            <h3>2+</h3>
+            <p>AI/Product projects</p>
           </div>
 
           <div>
             <h3>Finalist</h3>
             <p>CheckBus hackathon stage</p>
           </div>
+
+          <div>
+            <h3>React</h3>
+            <p>Portfolio built with Vite and Router</p>
+          </div>
+
+          <div>
+            <h3>Vercel</h3>
+            <p>Projects deployed and publicly available</p>
+          </div>
         </div>
       </section>
 
-      <section className="section">
-  <h2>Education & Certificates</h2>
+      <section id="education" className="section">
+        <h2>Education & Certificates</h2>
 
-  <div className="education-card">
-    <h3>IT STEP Academy</h3>
+        <div className="education-card">
+          <h3>IT STEP Academy</h3>
 
-    <p>
-      Currently studying Software Development course. Focused on web
-      development, backend systems and practical project building.
-    </p>
+          <p>
+            Currently studying Software Development course. Focused on web
+            development, frontend logic, routing, forms, project structure and
+            practical React development.
+          </p>
 
-    <p style={{ marginTop: "15px", color: "#a8adbd" }}>
-      Certificate: Coming Soon
-    </p>
-  </div>
-</section>
+          <p style={{ marginTop: "15px", color: "#a8adbd" }}>
+            Certificate: Coming Soon
+          </p>
+        </div>
+      </section>
 
       <section id="contact" className="section">
-    <h2>Contact</h2>
+        <h2>Contact</h2>
 
-    <p>
-        Feel free to contact me regarding projects,
-        collaboration or internship opportunities.
-    </p>
+        <p>
+          Feel free to contact me regarding projects, collaboration or
+          internship opportunities.
+        </p>
 
-    <ContactForm />
-</section>
+        <ContactForm />
+      </section>
     </main>
   );
 }
@@ -179,11 +173,11 @@ function Home() {
 function App() {
   return (
     <Routes>
-  <Route path="/" element={<Home />} />
-  <Route path="/projects" element={<Projects />} />
-  <Route path="/projects/:slug" element={<ProjectDetails />} />
-  <Route path="*" element={<NotFound />} />
-</Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/projects" element={<Projects />} />
+      <Route path="/projects/:slug" element={<ProjectDetails />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
   );
 }
 
