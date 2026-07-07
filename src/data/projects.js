@@ -82,5 +82,11 @@ export const projects = [
       "Add more projects, certificates, screenshots and improve code structure.",
     liveDemo: "https://portfolio-iota-nine-piretwypu6.vercel.app/",
     github: "https://github.com/AndreyPetin19/PORTFOLIO",
+    certificate: "/zeama-certificate.jpg",
+certificateText:
+  "ZEAMA was developed and presented during a hackathon project. The certificate confirms participation.",
+  certificate: "/checkbus-certificate.jpg",
+certificateText:
+  "CheckBus was developed and presented during a hackathon, where the project successfully reached the final stage. The certificate confirms participation.",
   },
 ];

@@ -60,6 +60,31 @@ function ProjectDetails() {
           <p>{project.role}</p>
         </div>
 
+        {project.certificate && (
+  <div className="case-block">
+    <h3>Hackathon Certificate</h3>
+
+    <p>{project.certificateText}</p>
+
+    <img
+      src={project.certificate}
+      alt={`${project.title} Certificate`}
+      className="certificate-image"
+    />
+
+    <div style={{ marginTop: "20px" }}>
+      <a
+        href={project.certificate}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn secondary"
+      >
+        View Certificate
+      </a>
+    </div>
+  </div>
+)}
+
         <div className="case-block">
           <h3>Tech Stack</h3>
           <div className="tech-list">
@@ -92,6 +117,7 @@ function ProjectDetails() {
           >
             GitHub
           </a>
+
 
           <Link to="/projects" className="btn secondary">
             All Projects
