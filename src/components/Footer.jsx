@@ -1,9 +1,19 @@
+import { Link } from "react-router-dom";
+
 function Footer() {
   return (
     <footer className="footer">
       <p>© 2026 Andrey Petin. Built with React and Vite.</p>
 
       <div className="footer-links">
+        <Link to="/">
+          Home
+        </Link>
+
+        <Link to="/projects">
+          Projects
+        </Link>
+
         <a
           href="https://github.com/AndreyPetin19"
           target="_blank"
@@ -12,9 +22,17 @@ function Footer() {
           GitHub
         </a>
 
-        <a href="mailto:broandro19ap@gmail.com">Email</a>
+        <a
+          href="https://github.com/AndreyPetin19/PORTFOLIO"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Source Code
+        </a>
 
-        <a href="#projects">Projects</a>
+        <a href="mailto:evgeniyevich077@gmail.com">
+          Contact
+        </a>
       </div>
     </footer>
   );
