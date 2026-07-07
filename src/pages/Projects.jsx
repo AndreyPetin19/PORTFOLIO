@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import ProjectCard from "../components/ProjectCard";
-import { projects as projectsData } from "../data/project";
+import { projects as projectsData } from "../data/projects.js";
 
 function Projects() {
   const [projects, setProjects] = useState([]);
