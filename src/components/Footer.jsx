@@ -6,13 +6,9 @@ function Footer() {
       <p>© 2026 Andrey Petin. Built with React and Vite.</p>
 
       <div className="footer-links">
-        <Link to="/">
-          Home
-        </Link>
+        <Link to="/">Home</Link>
 
-        <Link to="/projects">
-          Projects
-        </Link>
+        <Link to="/projects">Projects</Link>
 
         <a
           href="https://github.com/AndreyPetin19"
@@ -23,14 +19,10 @@ function Footer() {
         </a>
 
         <a
-          href="https://github.com/AndreyPetin19/PORTFOLIO"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=evgeniyevich077@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Source Code
-        </a>
-
-        <a href="mailto:evgeniyevich077@gmail.com">
           Contact
         </a>
       </div>
