@@ -5,21 +5,12 @@ import ProjectDetails from "./pages/ProjectDetails.jsx";
 import ContactForm from "./components/ContactForm.jsx";
 import NotFound from "./pages/NotFound.jsx";
 import Footer from "./components/Footer.jsx";
+import Navbar from "./components/Navbar.jsx";
 
 function Home() {
   return (
     <main>
-      <header className="navbar">
-        <div className="logo">Andrey Petin</div>
-
-        <nav>
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#skills">Skills</a>
-          <a href="#education">Education</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </header>
+      <Navbar />
 
       <section className="hero">
         <div className="hero-content">
@@ -165,7 +156,7 @@ function Home() {
       </section>
 
 <section id="contact" className="section">
-  ...
+  
 </section>
 
 <Footer />
