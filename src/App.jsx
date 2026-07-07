@@ -126,15 +126,6 @@ function Home() {
             <p>CheckBus hackathon stage</p>
           </div>
 
-          <div>
-            <h3>React</h3>
-            <p>Portfolio built with Vite and Router</p>
-          </div>
-
-          <div>
-            <h3>Vercel</h3>
-            <p>Projects deployed and publicly available</p>
-          </div>
         </div>
       </section>
 
