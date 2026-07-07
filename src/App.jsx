@@ -126,6 +126,11 @@ function Home() {
             <p>CheckBus hackathon stage</p>
           </div>
 
+          <div>
+  <h3>ZEAMA</h3>
+  <p>Developed & Presented at Hackathon</p>
+</div>
+
         </div>
       </section>
 
