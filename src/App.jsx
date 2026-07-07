@@ -4,6 +4,7 @@ import Projects from "./pages/Projects.jsx";
 import ProjectDetails from "./pages/ProjectDetails.jsx";
 import ContactForm from "./components/ContactForm.jsx";
 import NotFound from "./pages/NotFound.jsx";
+import Footer from "./components/Footer.jsx";
 
 function Home() {
   return (
@@ -162,6 +163,13 @@ function Home() {
 
         <ContactForm />
       </section>
+
+<section id="contact" className="section">
+  ...
+</section>
+
+<Footer />
+
     </main>
   );
 }
