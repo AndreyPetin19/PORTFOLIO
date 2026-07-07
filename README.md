@@ -1,16 +1,115 @@
-# React + Vite
+# Andrey Petin | Software & AI Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website built with React and Vite.
 
-Currently, two official plugins are available:
+The project presents my IT background, skills, projects, education and contact information. It demonstrates React routing, dynamic project pages, forms, reusable components and modern frontend development practices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
 
-## React Compiler
+https://portfolio-iota-nine-piretwypu6.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- JavaScript
+- React Router DOM
+- CSS
+- Git
+- GitHub
+- Vercel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Pages
+
+- Home
+- Projects
+- Project Details
+- 404 Not Found
+
+## Features
+
+- Responsive portfolio website
+- Dynamic project pages
+- Project search
+- Project filtering
+- Contact form
+- Form validation
+- Loading state
+- Error state
+- Empty state
+- Hackathon certificates
+- Responsive design
+- Deployment on Vercel
+
+## React Hooks Used
+
+- useState
+- useEffect
+- useMemo
+- useParams
+- useNavigate
+
+## Project Structure
+
+```text
+src/
+│
+├── components/
+│   ├── About.jsx
+│   ├── ContactForm.jsx
+│   ├── Education.jsx
+│   ├── Footer.jsx
+│   ├── Hero.jsx
+│   ├── Navbar.jsx
+│   ├── ProjectCard.jsx
+│   └── Skills.jsx
+│
+├── data/
+│   └── projects.js
+│
+├── pages/
+│   ├── NotFound.jsx
+│   ├── ProjectDetails.jsx
+│   └── Projects.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## Projects
+
+### ZEAMA
+
+AI-powered SaaS platform for customer review analysis and business insights.
+
+### CheckBus
+
+AI-based public transport monitoring system using computer vision.
+
+### Personal Portfolio
+
+Personal portfolio website built with React, Vite and React Router.
+
+## Installation
+
+```bash
+npm install
+npm run dev
+```
+
+## Production Build
+
+```bash
+npm run build
+```
+
+## Deployment
+
+Deployed with Vercel.
+
+## Author
+
+**Andrey Petin**
+
+GitHub: https://github.com/AndreyPetin19
