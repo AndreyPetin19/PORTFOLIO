@@ -26,7 +26,12 @@ export const projects = [
       "Improve backend logic, connect real AI analysis flow and add a stronger analytics dashboard.",
     liveDemo: "https://zeama.vercel.app/",
     github: "https://github.com/AndreyPetin19",
+
+    certificate: "/zeama-certificate.jpg",
+    certificateText:
+      "ZEAMA was developed and presented during a hackathon project. The certificate confirms participation.",
   },
+
   {
     id: 2,
     slug: "checkbus",
@@ -54,7 +59,12 @@ export const projects = [
       "Integrate real payment systems, improve AI accuracy and add a mobile dashboard for inspectors.",
     liveDemo: "https://undefined-checkbus.vercel.app",
     github: "https://github.com/AndreyPetin19",
+
+    certificate: "/checkbus-certificate.jpg",
+    certificateText:
+      "CheckBus was developed and presented during a hackathon, where the project successfully reached the final stage. The certificate confirms participation.",
   },
+
   {
     id: 3,
     slug: "portfolio",
@@ -82,11 +92,5 @@ export const projects = [
       "Add more projects, certificates, screenshots and improve code structure.",
     liveDemo: "https://portfolio-iota-nine-piretwypu6.vercel.app/",
     github: "https://github.com/AndreyPetin19/PORTFOLIO",
-    certificate: "/zeama-certificate.jpg",
-certificateText:
-  "ZEAMA was developed and presented during a hackathon project. The certificate confirms participation.",
-  certificate: "/checkbus-certificate.jpg",
-certificateText:
-  "CheckBus was developed and presented during a hackathon, where the project successfully reached the final stage. The certificate confirms participation.",
   },
 ];
