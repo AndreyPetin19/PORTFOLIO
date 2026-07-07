@@ -16,9 +16,7 @@ function Home() {
     <main>
       <Navbar />
       <Hero />
-
       <About />
-
       <Skills />
       <Projects />
 
@@ -37,15 +35,14 @@ function Home() {
           </div>
 
           <div>
-  <h3>ZEAMA</h3>
-  <p>Developed & Presented at Hackathon</p>
-</div>
-
+            <h3>ZEAMA</h3>
+            <p>Developed & Presented at Hackathon</p>
+          </div>
         </div>
       </section>
 
       <Education />
-      
+
       <section id="contact" className="section">
         <h2>Contact</h2>
 
@@ -57,12 +54,7 @@ function Home() {
         <ContactForm />
       </section>
 
-<section id="contact" className="section">
-  
-</section>
-
-<Footer />
-
+      <Footer />
     </main>
   );
 }

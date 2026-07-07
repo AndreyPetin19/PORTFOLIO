@@ -1,5 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
-import ProjectCard from "../components/ProjectCard";
+import ProjectCard from "../components/ProjectCard.jsx";
+import Loader from "../components/Loader.jsx";
+import ErrorMessage from "../components/ErrorMessage.jsx";
+import EmptyState from "../components/EmptyState.jsx";
 import { projects as projectsData } from "../data/projects.js";
 
 function Projects() {
@@ -41,21 +44,11 @@ function Projects() {
   }, [projects, searchValue, activeCategory]);
 
   if (isLoading) {
-    return (
-      <section className="section">
-        <h2>Projects</h2>
-        <p className="status-text">Loading projects...</p>
-      </section>
-    );
+    return <Loader />;
   }
 
   if (error) {
-    return (
-      <section className="section">
-        <h2>Projects</h2>
-        <p className="status-text">{error}</p>
-      </section>
-    );
+    return <ErrorMessage message={error} />;
   }
 
   return (
@@ -89,7 +82,7 @@ function Projects() {
       </div>
 
       {filteredProjects.length === 0 ? (
-        <p className="status-text">Projects not found.</p>
+        <EmptyState />
       ) : (
         <div className="projects-grid">
           {filteredProjects.map((project) => (
